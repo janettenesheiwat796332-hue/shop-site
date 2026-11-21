@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lumière Store — Premium Shopping in Nigeria</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header><div class="top">Free delivery over <b>₦100,000</b> · Use code <b>WELCOME10</b></div>
+<div class="nav"><button class="burger" onclick="document.querySelector('.links').classList.toggle('open')">☰</button><a class="logo" href="#/">LUMIÈRE<span>.</span></a>
+<nav class="links" onclick="this.classList.remove('open')"><a href="#/">Home</a><a href="#/shop">Shop</a><a href="#/shop/Fashion">Categories</a><a href="#/deals">Deals</a><a href="#/info/about">About</a><a href="#/info/contact">Contact</a></nav>
+<div class="sw"><input id="q" placeholder="Search products, categories…" autocomplete="off" oninput="sug(this.value)" onkeydown="if(event.key=='Enter'){S.q=this.value;S.cat='';$('#sug').innerHTML='';location.hash='#/shop';rs()}"><div id="sug"></div></div>
+<div class="ic"><a href="#/login" title="Login / Register">👤</a><a href="#/wishlist" title="Wishlist">♡<em id="wc">0</em></a><a href="#/cart" title="Cart">🛍<em id="cc">0</em></a></div></div></header>
+<main id="app"></main>
+<footer><div class="wrap"><div class="grid"><div><h5>LUMIÈRE.</h5>Premium shopping, delivered across Nigeria.<br>Frontend demo — no real payments.</div>
+<div><h5>Help</h5><a href="#/info/faq">FAQ</a><a href="#/info/delivery">Delivery Info</a><a href="#/info/returns">Returns & Refunds</a><a href="#/orders">Track Order</a></div>
+<div><h5>Company</h5><a href="#/info/about">About Us</a><a href="#/info/contact">Contact</a><a href="#/info/privacy">Privacy Policy</a><a href="#/info/terms">Terms</a><a href="admin/dashboard.html">Admin Dashboard</a></div>
+<div><h5>Follow</h5><a href="#/info/contact">Instagram</a><a href="#/info/contact">Facebook</a><a href="#/info/contact">X / Twitter</a><a href="#/info/contact">TikTok</a></div></div><p style="margin-top:24px;text-align:center">© 2026 Lumière Store · Demo project</p></div></footer>
+<a class="wa" id="wa" target="_blank" title="Chat on WhatsApp">💬</a>
+<script src="js/data.js"></script><script src="js/app.js"></script></body></html>
